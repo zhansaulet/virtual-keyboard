@@ -16,36 +16,10 @@ title.classList.add('title');
 textarea.classList.add('textarea');
 keyboardContainer.classList.add('keyboard');
 
+// add the title 
+title.innerHTML = "RSS Виртуальная клавиатура";
 
 
 
 
 
-
-// document.body
-//   .appendChild(
-//     Object.assign(
-//       document.createElement('div'),
-//       { className: 'container' }
-//     )
-//   ).appendChild(
-//     Object.assign(
-//       document.createElement('h1'),
-//       {
-//         className: 'title',
-//         innerHTML: 'RSS Виртуальная клавиатура'
-//       }
-//     )
-//   ).appendChild(
-//     Object.assign(
-//       document.createElement('textarea'), {
-//       className: 'textarea'
-//     }
-//     )
-//   ).appendChild(
-//     Object.assign(
-//       document.createElement('div'), {
-//       className: 'keyboard'
-//     }
-//     )
-//   );

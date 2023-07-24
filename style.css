@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Trebuchet MS", "Helvetica", sans-serif;
+  font-size: 30px;
+  color: rgba(101,134,177,0.8);
+  text-align: center;
+  margin: 10px auto;
+}
+
+.textarea {
+  display: block;
+  width: 700px;
+  height: 200px;
+  margin: 10px auto 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #444444;
+}

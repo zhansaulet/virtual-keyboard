@@ -1,10 +1,13 @@
 body {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Trebuchet MS", "Helvetica", sans-serif;
 }
 
 .container {
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
@@ -23,4 +26,104 @@ body {
   padding: 10px;
   font-size: 18px;
   color: #444444;
+}
+
+.keyboard {
+  width: 704px;
+  font-size: 15px;
+  margin: 0 auto;
+  background: #888888;
+  border: 3px solid #222222;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+.keyboard .row {
+  clear: both;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.keyboard .key {
+  float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: #444444;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    transition: border-radius 0.3s, background-color 0.3s;
+}
+
+.keyboard .delete {
+  width: 100px;
+  background-color: #222222;
+}
+
+.keyboard .tab {
+  width: 100px;
+  background-color: #222222;
+}
+
+.keyboard .capsLock {
+  width: 93px;
+  background-color: #222222;
+}
+
+.keyboard .return {
+  width: 93px;
+  background-color: #222222;
+}
+
+.keyboard .shift {
+  width: 93px;
+  background-color: #222222;
+}
+
+.keyboard .command {
+  width: 47px;
+  background-color: #222222;
+}
+
+.keyboard .space {
+  width: 272px;
+  background-color: #222222;
+}
+
+.keyboard .option, 
+.keyboard .fn,
+.keyboard .control,
+.keyboard .keyLeft,
+.keyboard .keyRight,
+.keyboard .keyDown, 
+.keyboard .keyUp {
+  background-color: #222222;
+} 
+
+.description, 
+.language {
+  margin: 10px auto;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.keyboard .key.active {
+  background-color: #2cfd72;
+  border-radius: 50px;
+}
+
+.keyboard .key:hover {
+  background: #79aa89
 }
